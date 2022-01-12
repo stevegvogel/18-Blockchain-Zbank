@@ -1,0 +1,80 @@
+=============== Jan 12, 2022 (EST) ===============
+11:24:33.468167 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:24:33.476205 db@open opening
+11:24:33.479190 version@stat F·[] S·0B[] Sc·[]
+11:24:33.484204 db@janitor F·2 G·0
+11:24:33.484204 db@open done T·7.0121ms
+11:24:33.485169 db@close closing
+11:24:33.485169 db@close done T·0s
+=============== Jan 12, 2022 (EST) ===============
+11:58:46.367307 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:58:46.367307 version@stat F·[] S·0B[] Sc·[]
+11:58:46.367307 db@open opening
+11:58:46.368359 journal@recovery F·1
+11:58:46.374284 journal@recovery recovering @1
+11:58:46.377319 memdb@flush created L0@2 N·15 S·1018B ".\xaf\x88..(SZ,v5":"\xd3\xfc\xf2..ΰw,v4"
+11:58:46.383304 version@stat F·[1] S·1018B[1018B] Sc·[0.25]
+11:58:46.395230 db@janitor F·3 G·0
+11:58:46.395230 db@open done T·27.9234ms
+11:58:46.735842 db@close closing
+11:58:46.735842 db@close done T·0s
+=============== Jan 12, 2022 (EST) ===============
+11:59:43.528865 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:59:43.528865 version@stat F·[1] S·1018B[1018B] Sc·[0.25]
+11:59:43.528865 db@open opening
+11:59:43.528865 journal@recovery F·1
+11:59:43.534846 journal@recovery recovering @3
+11:59:43.554670 memdb@flush created L0@5 N·3 S·497B "Dat..ion,v17":"cli..\xb8\xa7\xcf,v19"
+11:59:43.560655 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+11:59:43.573619 db@janitor F·4 G·0
+11:59:43.573619 db@open done T·44.7535ms
+12:10:25.696002 db@close closing
+12:10:25.696002 db@close done T·0s
+=============== Jan 12, 2022 (EST) ===============
+12:11:40.243644 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:11:40.243644 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+12:11:40.243644 db@open opening
+12:11:40.244647 journal@recovery F·1
+12:11:40.250622 journal@recovery recovering @6
+12:11:40.255609 memdb@flush created L0@8 N·10 S·645B "H\xee:..n\x84W,v24":"r\x00\x00..n\x84W,v26"
+12:11:40.262599 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+12:11:40.273562 db@janitor F·5 G·0
+12:11:40.273562 db@open done T·29.9182ms
+12:36:04.706501 db@close closing
+12:36:04.706501 db@close done T·0s
+=============== Jan 12, 2022 (EST) ===============
+12:36:39.232376 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:36:39.232376 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+12:36:39.232376 db@open opening
+12:36:39.232376 journal@recovery F·1
+12:36:39.233381 journal@recovery recovering @9
+12:36:39.238379 memdb@flush created L0@11 N·874 S·44KiB "H\x00\xd0..V2\xc6,v503":"r\x00\x00...\x88\u007f,v901"
+12:36:39.238379 version@stat F·[4] S·46KiB[46KiB] Sc·[1.00]
+12:36:39.251291 db@janitor F·6 G·0
+12:36:39.251291 db@open done T·18.9154ms
+12:36:39.251291 table@compaction L0·4 -> L1·0 S·46KiB Q·906
+12:36:39.252289 db@close closing
+12:36:39.255280 table@build created L1@14 N·605 S·34KiB ".\xaf\x88..(SZ,v5":"\xd3\xfc\xf2..ΰw,v4"
+12:36:39.255280 table@build exiting
+12:36:39.255280 table@build revert @14
+12:36:39.256285 db@close done T·3.9961ms
+=============== Jan 12, 2022 (EST) ===============
+12:36:57.161325 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:36:57.162285 version@stat F·[4] S·46KiB[46KiB] Sc·[1.00]
+12:36:57.162285 db@open opening
+12:36:57.162285 journal@recovery F·1
+12:36:57.168231 journal@recovery recovering @12
+12:36:57.173263 memdb@flush created L0@14 N·1 S·390B "eth..\xb8\xa7\xcf,v907":"eth..\xb8\xa7\xcf,v907"
+12:36:57.180267 version@stat F·[5] S·46KiB[46KiB] Sc·[1.25]
+12:36:57.191259 db@janitor F·7 G·0
+12:36:57.191259 db@open done T·28.9742ms
+12:36:57.191259 table@compaction L0·5 -> L1·0 S·46KiB Q·908
+12:36:57.196202 table@build created L1@17 N·605 S·34KiB ".\xaf\x88..(SZ,v5":"\xd3\xfc\xf2..ΰw,v4"
+12:36:57.196202 version@stat F·[0 1] S·34KiB[0B 34KiB] Sc·[0.00 0.00]
+12:36:57.198267 table@compaction committed F-4 S-12KiB Ke·0 D·298 T·7.0078ms
+12:36:57.199264 table@remove removed @11
+12:36:57.199264 table@remove removed @8
+12:36:57.199264 table@remove removed @5
+12:36:57.199264 table@remove removed @2
+12:41:08.993244 db@close closing
+12:41:08.994242 db@close done T·997.4µs
